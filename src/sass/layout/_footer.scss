@@ -1,0 +1,30 @@
+.footer {
+    background-color: $footer-background-color;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 28px;
+    margin-right: 0;
+    margin-left: 0;
+}
+.footer__descr {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: $footer-grey-text-color;
+    @media screen and (min-width: 768px) {
+        flex-wrap: nowrap;
+        padding-top: 30px;
+        padding-bottom: 28px;
+    }
+    
+}
+.footer__link,
+.footer-text,
+.footer-heart {
+    color: $footer-grey-text-color;
+}
+.footer__link {
+    text-decoration: underline;
+}

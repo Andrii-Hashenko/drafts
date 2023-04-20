@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "name": "Andrii Hashenko",
+    "description": "Team Lead and developer",
+    "image": "",
+    "github": "https://github.com/Andrii-Hashenko",
+    "linkdIn": "https://www.linkedin.com/in/andrii-hashenko-513492aa/",
+    "telegram": ""
+  },
+  {
+    "id": "2",
+    "name": "Ірина Небесна",
+    "description": "Scrum Master and developer",
+    "image": "",
+    "github": "https://github.com/NebesnaIryna",
+    "linkdIn": "",
+    "telegram": ""
+  },
+  {
+    "id": "3",
+    "name": "Сергій Шимко",
+    "description": "Developer",
+    "image": "",
+    "github": "https://github.com/SerhiiShymko",
+    "linkdIn": "",
+    "telegram": ""
+  },
+  {
+    "id": "4",
+    "name": "Сергій Кушнір",
+    "description": "Developer",
+    "image": "",
+    "github": "https://github.com/Sergiy5",
+    "linkdIn": "",
+    "telegram": ""
+  },
+  {
+    "id": "5",
+    "name": "Олена Березіна",
+    "description": "Developer",
+    "image": "",
+    "github": "ttps://github.com/OlenkaPasko",
+    "linkdIn": "",
+    "telegram": ""
+  },
+  {
+    "id": "6",
+    "name": "Мар’ян Кравець",
+    "description": "Developer",
+    "image": "",
+    "github": "https://github.com/MarioKarv",
+    "linkdIn": "",
+    "telegram": ""
+  },
+  {
+    "id": "7",
+    "name": "Олена Нечипоренко",
+    "description": "Developer",
+    "image": "",
+    "github": "https://github.com/farfalina1908",
+    "linkdIn": "",
+    "telegram": ""
+  }
+]
