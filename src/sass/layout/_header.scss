@@ -378,7 +378,7 @@
 }
 
 .bg {
-  background: url(../images/background/bg3.png);
+  background: url(../images/background/bg3.jpg);
   background-position: top;
   background-size: 350px;
   padding-bottom: 60px;
@@ -389,7 +389,7 @@
 
   &.dark {
     background: linear-gradient(rgb(0 0 0 / 50%), rgb(0 0 0 / 65%)),
-      url(../images/background/webb-dark.png);
+      url(../images/background/webb-dark.jpg);
     background-position: top;
     background-size: 350px;
   }
