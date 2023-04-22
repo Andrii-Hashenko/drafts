@@ -1,5 +1,6 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 import { initializeApp } from 'firebase/app';
+import { getAnalytics } from "firebase/analytics";
 import {
   getAuth,
   createUserWithEmailAndPassword,
@@ -30,17 +31,17 @@ const logWithGithub = messages.auth.logwith.github;
 const logoutMsg = messages.auth.logout;
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDru_yvb94CLLyga06XJjVjjbcRtcd4DxY',
-  authDomain: 'authentication-app-78afc.firebaseapp.com',
-  databaseURL: 'https://authentication-app-78afc-default-rtdb.firebaseio.com',
-  // https://filmoteka-project-10.firebaseapp.com/__/auth/action?mode=action&oobCode=code
-  projectId: 'authentication-app-78afc',
-  storageBucket: 'authentication-app-78afc.appspot.com',
-  messagingSenderId: '25662515291',
-  appId: '1:25662515291:web:91dceb30df0dad99c1377e',
+  apiKey: "AIzaSyD7WECfyM6dTqk4SuatXK2A4h1ZIXobEp0",
+  authDomain: "filmoteka-project-10.firebaseapp.com",
+  projectId: "filmoteka-project-10",
+  storageBucket: "filmoteka-project-10.appspot.com",
+  messagingSenderId: "624096364756",
+  appId: "1:624096364756:web:3c0bcaa1b226f1ccf8d341",
+  measurementId: "G-PNMNJZXNGX"
 };
 
 const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 const auth = getAuth();
 const provider = new GoogleAuthProvider();
 const providerFb = new FacebookAuthProvider();
@@ -59,7 +60,7 @@ const instance = basicLightbox.create(
       </div>
       <button type="button" id="close-modal-btn">
         <svg width="25" height="25">
-          <use href="/Filmoteka-Project-10/sprite.ba1893dc.svg#close-btn"></use>
+          <use href="/drafts/sprite.ba1893dc.svg#close-btn"></use>
         </svg>
       </button>
         <p class="auth-container-text" data-key="description">To log in, enter your email address and password</p>
@@ -72,21 +73,21 @@ const instance = basicLightbox.create(
             <li class="social-items">
               <a id="login-google" class="social-login-btn">
                 <svg width="25" height="25">
-                  <use href="/Filmoteka-Project/sprite.ba1893dc.svg#icon-google"></use>
+                  <use href="/drafts/sprite.ba1893dc.svg#icon-google"></use>
                 </svg>
               </a>
             </li>
             <li class="social-items">
               <a id="login-fb" class="social-login-btn fb-btn">
                 <svg width="25" height="25">
-                  <use href="/Filmoteka-Project/sprite.ba1893dc.svg#facebook"></use>
+                  <use href="/drafts/sprite.ba1893dc.svg#facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="social-items">
               <a id="login-github" class="social-login-btn git-btn">
                 <svg width="25" height="25">
-                  <use href="/Filmoteka-Project/sprite.ba1893dc.svg#icon-github"</use>
+                  <use href="/drafts/sprite.ba1893dc.svg#icon-github"</use>
                 </svg>
               </a>
             </li>            
@@ -112,7 +113,7 @@ const instance2 = basicLightbox.create(
     </div>
       <button type="button" id="close-modal-btn">
         <svg width="25" height="25">
-          <use href="/Filmoteka-Project/sprite.ba1893dc.svg#close-btn"></use>
+          <use href="/drafts/sprite.ba1893dc.svg#close-btn"></use>
         </svg>
       </button>
         <input type="email" placeholder="E-mail" class="email-input sign-up" id="sign-email" data-key="email">
