@@ -15,7 +15,7 @@
   display: flex;
 }
 .auth-container-title {
-  @include font($fs: 25px);
+  @include font($font-size: 25px);
   padding-bottom: 20px;
 }
 
@@ -116,8 +116,8 @@
 }
 
 .fb-btn {
-  fill: white;
-  background-color: #3b5998;
+  fill: #FFFFFF;
+  background-color: #9e20b5;
 }
 
 .sign-up {
@@ -187,7 +187,7 @@
 
 .signin-btn,
 .sigout-btn {
-  @include font($lh: 16px);
+  @include font($line-height: 16px);
   text-transform: uppercase;
   width: max-content;
   cursor: pointer;
@@ -200,12 +200,12 @@
 }
 
 .user-name {
-  @include font($lh: 16px);
+  @include font($line-height: 16px);
   text-transform: uppercase;
 }
 
 .user-email {
-  @include font($lh: 16px);
+  @include font($line-height: 16px);
 }
 
 #alreadyHaveAccount {
