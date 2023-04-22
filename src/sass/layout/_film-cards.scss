@@ -7,7 +7,7 @@
 }
 
 .movie-card {
-  background-color: #fff;
+  background-color: #FFFFFF;
   box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 
   position: relative;
@@ -85,7 +85,7 @@
   position: relative;
   cursor: pointer;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   transition: 500ms linear;
   &:hover,
   &:focus {
@@ -105,8 +105,8 @@
   right: 10px;
   width: 50px;
   height: 25px;
-  background-color: rgba(255, 107, 8, 0.9);
-  color: #fff;
+  background-color: #B92F2C;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;

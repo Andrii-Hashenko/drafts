@@ -30,12 +30,12 @@
     justify-content: center;
     align-items: center;
     &:hover {
-      border: 2px solid #ff6b01;
+      border: 2px solid #B92F2C;
       border-radius: 50%;
-      background-color: #fff;
+      background-color: #FFFFFF;
       color: $white-text-color;
       transform: translateY(-2px);
-            box-shadow: 0 0 20px 2px #ff6b01;
+            box-shadow: 0 0 20px 2px #B92F2C;
     }
   }
 }
@@ -106,29 +106,29 @@
   width: 40px;
   height: 40px;
   background-color: transparent;
-  color: #ff6b01;
-  border: 2px solid #ff6b01;
+  color: #B92F2C;
+  border: 2px solid #B92F2C;
       cursor: pointer;
 
   &:hover {
-    color: white;
-    border: 2px solid white;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
     
     transform: translateY(-3px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 10px 20px #ff6b01;
+    box-shadow: 0 10px 20px #B92F2C;
   }
   &:active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px #ff6b01;
+    box-shadow: 0 5px 10px #B92F2C;
   }
 }
 .button-add {
   @media screen and (min-width: 320px) {
     width: 112px;
     height: 44px;
-    border: 2px solid #ff6b01;
+    border: 2px solid #B92F2C;
     border-radius: 5px;
     margin-top: 21px;
     font-family: Roboto;
@@ -155,12 +155,12 @@
     @media screen and (min-width: 320px) {
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-      box-shadow: 0 10px 20px #ff6b01;
+      box-shadow: 0 10px 20px #B92F2C;
       width: 115px;
       height: 44px;
-      background: #fff;
-      border: 1px solid #ff6b01;
-      color: #ff6b01;
+      background: #FFFFFF;
+      border: 1px solid #B92F2C;
+      color: #B92F2C;
     }
     @media screen and (min-width: 768px) {
       width: 125px;
@@ -184,7 +184,7 @@
   :active {
     transform: translateY(-1px);
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px #ff6b01;
+    box-shadow: 0 5px 10px #B92F2C;
   }
 }
 
@@ -203,7 +203,7 @@
   }
 }
 .pressed {
-  background-color: #ff6b01;
+  background-color: #B92F2C;
   
   border: none;
   color: $white-text-color;
@@ -237,7 +237,7 @@ th {
   font-size: 12px;
   line-height: 16px;
   text-align: start;
-  color: #8c8c8c;
+  color: #8C8C8C;
   padding-bottom: 10px;
 }
 td {
@@ -286,7 +286,7 @@ td {
   }
   @media screen and (min-width: 1200px) {
     width: 50%;
-    background: #8c8c8c;
+    background: #8C8C8C;
     
   }
 }
@@ -308,17 +308,17 @@ td {
   background-repeat: no-repeat;
   background-color: transparent;
   border-radius: 10px;
-  box-shadow: 0 0 10px 0 #8c8c8c inset, 0 0 10px 4px white;
+  box-shadow: 0 0 10px 0 #8C8C8C inset, 0 0 10px 4px #FFFFFF;
   
   font-weight: bold;
   letter-spacing: 2px;
-  color: white;
+  color: #FFFFFF;
       cursor: pointer;
 
   transition: 0.15s ease-in-out;
 
   &:hover {
-    box-shadow: 0 0 10px 0 white inset, 0 0 10px 10px white;
+    box-shadow: 0 0 10px 0 #FFFFFF inset, 0 0 10px 10px #FFFFFF;
   }
 }
 .modal-btn-container {

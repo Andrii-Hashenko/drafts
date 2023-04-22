@@ -9,7 +9,7 @@ var opts = {
   rotate: 0, // The rotation offset
   animation: 'spinner-line-fade-default', // The CSS animation name for the lines
   direction: 1, // 1: clockwise, -1: counterclockwise
-  color: '#FF6B08', // CSS color or array of colors
+  color: '#B92F2C', // CSS color or array of colors
   fadeColor: 'transparent', // CSS color or array of colors
   top: '42%', // Top position relative to parent
   left: '50%', // Left position relative to parent
